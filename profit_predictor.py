@@ -7,7 +7,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
-dataset = pd.read_csv("C:/Users/hacho/Downloads/Machine-Learning/Multiple-Linear-Regression/50_Startups.csv")
+dataset = pd.read_csv("50_Startups.csv")
 X = dataset.iloc[:, :-1]
 y = dataset.iloc[:, -1]
 
